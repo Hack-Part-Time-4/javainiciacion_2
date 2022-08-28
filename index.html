@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript 2</title>
+</head>
+<body>
+    
+    <script>
+        //hacer ejercicio del selfword 1 de la 6 a la 14
+
+
+        //6.-variables tipo primitivo e imprimir el dato.
+        let number= 7
+        console.log(number);
+        console.log(typeof number);
+        let VF= true
+        console.log(VF);
+        console.log(typeof VF);
+        let cafetera= "cafe"
+        console.log(cafetera);
+        console.log(typeof cafetera);
+        let novalor=undefined //esta variable no tiene valor siempre dara esa palabra.
+        console.log(novalor);
+        console.log(typeof novalor);
+
+        //7.-variable 5 y al imprimir obtener 10.
+       let num= 5
+       num +=5
+       console.log(num);
+
+       //8.-dos variables tipo string e imprimir una nueva con contenido de las dos.
+       let car= "mi coche"
+       let car2= ' es rojo'
+       let car3= "mi coche es rojo"
+       console.log(car3); //asi o tambien console.log (car + car2) para que salga mi coche es rojo.
+
+       //9.-variable con valor 5,transformarla en cadena e imprimirla los dos tipos datos.
+       //var num = 5 ; numString var = " " + num;
+       let x=5;
+       console.log(x);
+       console.log(typeof x)
+       let y= x +"5";//en las sumas es donde unico no suma sino el resultado seria 55 (ojo solo en las sumas)
+       let f="y"+ x //en este tengo duda preguntar a Bea!!  OJOOO
+       console.log(y);
+       console.log(typeof y);
+       console.log(f);
+       console.log(typeof f);
+
+       //10.-imprimir variable con 6 decimales y luego cambiarla  y que aparezca solo 3. busque en internet
+       let c=5.587896;
+       let cmenosdecimal= c.toFixed(3);
+       console.log(cmenosdecimal);
+       cmenosdecimal= Number(cmenosdecimal)
+       console.log(typeof cmenosdecimal)
+
+
+       //11.-imprimir una suma de cadenas
+       let string="6"
+       let string2="5"
+       console.log(string+string2);
+
+       //12.-encapsular resultado operacion anteriror en variable e imprimir interpolation.
+       //pendiente de hacer duda
+       
+        let resultado="65"
+        console.log (resultado)
+
+       //13.-resultado y tipo de dato . 10 +"1" y 10-"1"
+       let t=10+"1";// recordar que no suma sino que se une(solo pasa en las sumas resto no)seria 101
+       console.log(t);
+       console.log(typeof t);// string porque en las sumas no afecta
+
+       let b=10-"1"; //recordar que en este caso es una resta y si se hace la operacion seria 9
+       console.log(b);
+       console.log(typeof b);// number porque es una operacion que tiene el menos.
+
+       //14.- sustituir palabras (PENDIENTE)
+
+       //15.- variable que diga si es mayor que 100
+       if (101>100) {
+         alert("Si es mayor que 100")
+       }
+       //16.- si es positivo o negativo
+       
+       //17.-dos variables sumar y multiplicarlas
+       let numero1="26"
+       let numero2="28"
+       let numero3=54
+       if (numero3 > 50) {
+        alert(numero3* 2)
+       } else {
+        alert(numero3 * 3)
+       }
+       //18.-
+
+    </script>
+
+
+</body>
+</html>
